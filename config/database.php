@@ -37,6 +37,7 @@ exit();
 echo "local success connection !!!";
 }
 //supa conection
+/*
 $supa_conn =pg_connect($supa_data_connection);
 if(!$supa_conn){
 echo "<br>Error: Unable to connet to supa database.";
@@ -44,4 +45,5 @@ exit();
 }else{
 echo "<br>supa success connection !!!";
 }
+*/
 ?>
