@@ -1,9 +1,15 @@
 create table users(
-id bigint
- firstname      | character varying(15) |              | not null |
- lastname       | character varying(15) |              | not null |
- email          | character varying(50) |              | not null |
- password       | character(20)         |              | not null |
- mobile_phone   | character varying(20) |              | not null |
- password_again | character(20)         |              | not null |
-)
+id             SERIAL PRIMARY KEY NOT NULL,
+firstname      VARCHAR(50)   NOT NULL, 
+lasname        VARCHAR(50)   NOT NULL,
+email          VARCHAR(100)  NOT NULL UNIQUE,
+password       TEXT          NOT NULL,
+mobile_phone   VARCHAR(20)   NOT NULL UNIQUE,
+address        VARCHAR(100)  NULL,
+birthday       DATE          NULL,
+status         BOOLEAN       DEFAULT TRUE,
+gender         CHAR(1)       DEFAULT NULL,
+created_at     TIMESTAMP     DEFAULT CURRENT_TIMESTAMP,
+updated_at     TIMESTAMP     DEFAULT CURRENT_TIMESTAMP,
+deleted_at     TIMESTAMP     DEFAULT NULL
+);
