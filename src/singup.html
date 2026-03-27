@@ -6,21 +6,23 @@
     <title>Sing up</title>
       <link rel="icon" type="image/png" href="icons/Home.png">
 </head>
-<body bgcolor="F78A00">
-    <table border="1" align="center">
-<tr> <td> <label for="fname">Firstname</label><br>
-    <input type="text"><br>
-    <label for="lname">Lastname</label><br>
-    <input type="text"> <br>
-    <label for="email">Email</label><br>
-    <input type="email"><br>
-    <label for="passwd">Password</label><br>
-    <input type="password"><br>
-    <label for="pagain">Password again</label><br>
-    <input type="password"><br>
-    <label for="mphone">Mobile phone</label><br>
-    <input type="number"> <br>
-  <br> <button>Register</button>
-  </tr>  </td> </table>
+<body bgcolor="F2D1C4">
+<table border="1" align="center">
+<form name="frm-user" action ="signup.php" method ="post">
+<tr><label for="fname">Firtsname</label><br></tr>
+<tr><input type= "text" name="fname" required ><br></tr>
+<tr><label for="lname">Lastname</label><br></tr>
+<tr><input type= "text" name="lname" required><br></tr>
+<tr><label for="email">Email </label><br></tr>
+<tr><input type= "email" name ="email" required ><br></tr>
+<tr><label>Password</label><br></tr>
+<tr><input type="password" name="password" required><br></tr>
+<tr><label>Password again</label><br></tr>
+<tr><input type="password" name="password" required><br></tr>
+<tr><label for="mphone">Mobile phone</label><br></tr>
+<tr><input type= "number" name="mphone" required><br></tr>
+<button>Regiter</button> <br>
+</form>
+</table>
 </body>
-</html>
+</html>       

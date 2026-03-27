@@ -1,9 +1,9 @@
 create table users(
-id             SERIAL PRIMARY KEY NOT NULL,
+id             bigint
 firstname      VARCHAR(50)   NOT NULL, 
 lastname        VARCHAR(50)  NOT NULL,
 email          VARCHAR(100)  NOT NULL UNIQUE,
-password       TEXT          NOT NULL,
+password         TEXT          NOT NULL,
 mobile_phone   VARCHAR(20)   NOT NULL UNIQUE,
 address        VARCHAR(100)  NULL,
 birthday       DATE          NULL,
