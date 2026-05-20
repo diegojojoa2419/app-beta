@@ -23,14 +23,14 @@
     <td>peter@mail.com</td>
     <td>300123</td>
     <td>active</td>
-    <td><img src ="profile_photo/imagen_profile.png.png"width = "50" alt = "user photo"></td>
+    <td><img src ="images/image.png"width = "50" alt = "user photo"></td>
     <td>
        <a href = '#'>
-       <img src = "icons/edit user.png" width = "50" alt = "edit user">
+       <img src = "icons/edit user1.png" width = "20" alt = "edit user">
        </a>
        &nbsp; &nbsp;
        <a href = "#">
-         <img src = "icons/delete.png" width = '50' alt = "delete user">
+         <img src = "icons/delete2.png" width = '20' alt = "delete user">
        </a>
     </td>
  </tr>
