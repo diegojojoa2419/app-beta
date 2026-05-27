@@ -6,13 +6,13 @@ $f_name  =$_POST ['fname' ];
 $L_name  =$_POST ['lname' ];
 $E_mail  =$_POST ['email' ];
 $M_phone =$_POST ['mphone'];
-<<<<<<< HEAD
+//<<<<<<< HEAD
 $p_sswd  =$_POST ['passwd'];
 $enc_pass = md5($p_sswd);
-=======
+//=======
 $p_sswd  =$_POST ['password'];
 $enc_pass = password_hash($p_sword, PASSWORD_BCRYPT);
->>>>>>> feature1-RegisterUser-Backend
+//>>>>>>> feature1-RegisterUser-Backend
 // Query to insert into SQL. 
 $checkEmail = "SELECT * FROM USERS WHERE email = '$e_mail'";
 $resultEmail = pg_query($local_conn, $checkEmail);
