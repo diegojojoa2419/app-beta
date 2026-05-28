@@ -1,2 +1,0 @@
-# app-beta
-fullstack proyect
